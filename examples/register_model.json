@@ -1,0 +1,15 @@
+{
+  "format": "maxvrec.native_sequential_cone.v1",
+  "inputs": ["clock", "data"],
+  "cells": {},
+  "registers": {
+    "q": {
+      "clock_edge": "rising",
+      "clock_pin": "clock",
+      "data": {"kind": "input_pin", "pin": "data"}
+    }
+  },
+  "pins": [
+    {"pin": "out", "mode": "push_pull", "data": {"kind": "register", "native_lc": "q"}, "oe": {"kind": "constant", "value": 1}}
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "boundaries": [],
+  "cells": {
+    "LC_X2_Y2_N0": {
+      "inputs": {
+        "DATAA": {
+          "kind": "input_pin",
+          "pin": "d"
+        },
+        "DATAB": {
+          "kind": "constant",
+          "value": 0
+        },
+        "DATAC": {
+          "kind": "xor",
+          "source": {
+            "kind": "register",
+            "native_lc": "LC_X2_Y2_N0"
+          },
+          "value": 1
+        },
+        "DATAD": {
+          "kind": "constant",
+          "value": 0
+        }
+      },
+      "mask": 23130,
+      "native_decode": {
+        "inputs": [
+          {
+            "carry_field": {
+              "class": "LE_USE_CARRY",
+              "index": "none",
+              "location": "LC_X2_Y2_N0",
+              "sentinels": [],
+              "shape": [
+                1
+              ],
+              "terms": [
+                [
+                  0,
+                  0,
+                  1,
+                  1,
+                  0
+                ]
+              ]
+            },
+            "carry_value": 0,
+            "feedback_field": {
+              "class": "LE_USE_REGISTER_FEEDBACK",
+              "index": "none",
+              "location": "LC_X2_Y2_N0",
+              "sentinels": [],
+              "shape": [
+                1
+              ],
+              "terms": [
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ]
+            },
+            "feedback_value": 1,
+            "predicted_port": "DATAC",
+            "scope": "Internal same-LC REGOUT to raw LUT-C candidate; independent source comparison required.",
+            "source_kind": "register_feedback",
+            "source_lc": "LC_X2_Y2_N0",
+            "source_xor": 1,
+            "state": "unique_source"
+          }
+        ]
+      },
+      "native_lc": "LC_X2_Y2_N0"
+    }
+  },
+  "format": "maxvrec.native_partial_state_cone.v7",
+  "inputs": [
+    "a",
+    "c",
+    "d",
+    "l",
+    "e",
+    "rst"
+  ],
+  "original_equivalence_verified": false,
+  "pins": [
+    {
+      "data": {
+        "kind": "register",
+        "native_lc": "LC_X2_Y2_N0"
+      },
+      "mode": "push_pull",
+      "oe": {
+        "kind": "constant",
+        "value": 1
+      },
+      "pin": "q"
+    },
+    {
+      "data": {
+        "kind": "constant",
+        "value": 0
+      },
+      "mode": "push_pull",
+      "oe": {
+        "kind": "constant",
+        "value": 0
+      },
+      "pin": "a"
+    },
+    {
+      "data": {
+        "kind": "constant",
+        "value": 0
+      },
+      "mode": "push_pull",
+      "oe": {
+        "kind": "constant",
+        "value": 0
+      },
+      "pin": "c"
+    },
+    {
+      "data": {
+        "kind": "constant",
+        "value": 0
+      },
+      "mode": "push_pull",
+      "oe": {
+        "kind": "constant",
+        "value": 0
+      },
+      "pin": "d"
+    },
+    {
+      "data": {
+        "kind": "constant",
+        "value": 0
+      },
+      "mode": "push_pull",
+      "oe": {
+        "kind": "constant",
+        "value": 0
+      },
+      "pin": "l"
+    },
+    {
+      "data": {
+        "kind": "constant",
+        "value": 0
+      },
+      "mode": "push_pull",
+      "oe": {
+        "kind": "constant",
+        "value": 0
+      },
+      "pin": "e"
+    },
+    {
+      "data": {
+        "kind": "constant",
+        "value": 0
+      },
+      "mode": "push_pull",
+      "oe": {
+        "kind": "constant",
+        "value": 0
+      },
+      "pin": "rst"
+    }
+  ],
+  "productive_emission_allowed": false,
+  "registers": {
+    "LC_X2_Y2_N0": {
+      "aclr": {
+        "kind": "input_pin",
+        "pin": "rst"
+      },
+      "aload": {
+        "kind": "input_pin",
+        "pin": "l"
+      },
+      "asynchronous_data": {
+        "kind": "input_pin",
+        "pin": "a"
+      },
+      "clock_edge": "rising",
+      "clock_pin": "c",
+      "data": {
+        "kind": "cell",
+        "native_lc": "LC_X2_Y2_N0"
+      },
+      "enable": {
+        "kind": "input_pin",
+        "pin": "e"
+      },
+      "native_lc": "LC_X2_Y2_N0",
+      "qualification": {
+        "aclr": {
+          "kind": "input_pin",
+          "pin": "rst"
+        },
+        "aload": {
+          "kind": "input_pin",
+          "pin": "l"
+        },
+        "asynchronous_data": {
+          "kind": "input_pin",
+          "pin": "a"
+        },
+        "clock_edge": "rising",
+        "clock_pin": "c",
+        "control_constants": {
+          "inverta": 0,
+          "regcascin": 0,
+          "sclr": 0,
+          "sload": 0
+        },
+        "enable": {
+          "kind": "input_pin",
+          "pin": "e"
+        },
+        "native_lc": "LC_X2_Y2_N0"
+      }
+    }
+  },
+  "target": "5M40ZE64C5"
+}

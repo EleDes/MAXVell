@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "MAXVell"
+version = "0.1.0"
+description = "Standalone MAX V POF decoding, storage IR and partial reconstruction results"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "0BSD AND CC0-1.0"
+license-files = ["LICENSE", "LICENSES.md", "LICENSES/*.txt"]
+
+[project.scripts]
+maxvell = "maxvell.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+maxvell = ["data/*.sqlite", "data/*.json", "data/*.sql"]

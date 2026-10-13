@@ -1,0 +1,42 @@
+{
+  "database_bytes": 38469632,
+  "format": "maxvell.snapshot.v2",
+  "integrity_check": "ok",
+  "model_kinds": {
+    "aload_candidates": 1,
+    "aload_sites": 1,
+    "cff_io": 92,
+    "device_fields": 92,
+    "functional": 92,
+    "global_clock": 92,
+    "h4_v4": 92,
+    "input_selectors": 92,
+    "io_fields": 92,
+    "io_options": 8,
+    "lc_bundle": 92,
+    "le_lab_controls": 92,
+    "lut": 92,
+    "lut_context_candidates": 1,
+    "lut_semantics": 2,
+    "lut_topology": 2,
+    "outside_legal": 48,
+    "remaining_mux": 92,
+    "route_group_candidates": 1,
+    "route_mux": 92,
+    "selector_qualification": 1,
+    "source_exclusions": 92,
+    "ufm_candidates": 1,
+    "ufm_content": 1,
+    "ufm_recipe": 7,
+    "ufm_source_sink_support": 1,
+    "usercode": 92
+  },
+  "publication_date": "2026-10-12",
+  "table_counts": {
+    "devices": 7,
+    "mapping_results": 3149,
+    "metadata": 4,
+    "model_blobs": 185,
+    "model_catalog": 1363
+  }
+}

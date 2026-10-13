@@ -1,0 +1,11 @@
+{
+  "initial_state": {"q": 0},
+  "initial_inputs": {"clock": 0, "data": 0},
+  "input_steps": [
+    {"clock": 0, "data": 1},
+    {"clock": 1, "data": 1},
+    {"clock": 1, "data": 0},
+    {"clock": 0, "data": 0},
+    {"clock": 1, "data": 0}
+  ]
+}

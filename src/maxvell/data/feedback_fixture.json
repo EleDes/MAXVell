@@ -1,0 +1,7 @@
+{
+  "cfm_bits": 53248,
+  "cfm_zlib_base64": "eNrtmb9PwkAUx/8jl8YR2FxM3AgTK4yOBjXyDziTMEAnBgd0p4ndnAqd0MEAg5EaDIeGlKaUuyctKBB6ryCRX970cvfu+9718T65a2EAQCMy5F2bCgMD3SgbAGwwHA/nmDvfGVvg2dOLng6MGoZ8MgC5zaQuk3N2SOrOrlO5cZyJ3/qeb/jns5B9AFwF+P31lmfbv9bDj95fxxo+8xSN35mZ78znn94Hndc3puO/OwH77zAL+32B4v7nJyx+4dzgxb3LDK2J1Pve1ZcA1Udpk+eP3aJ9u6itof74ocPNTzxroPrC+Rswxxtb43757qdRfdSPIVxTnKRHOnNcn2K/xa3Po8cVnp+qZe0omWiWtWs9kQhLuc9stiJJL7lsdrxOI5kWIW1yUCXkXqkVSkpdUY6LijKJ47//Fes+eU6sP4L8y+WzVvRvOr5Pf/VhNf4C9FET/pg/3Mb5+c/IovXB+HPXofwBzl/gc2jaA8ofEfztMH9txvWr9QX0r4jevbdVKV+/Fv74+dOCP8Hf3p9/SP9v+PyLCf4Ef+L+ORrbnDzLzs/xB9vJn83hz16SP5vD343gb9f58+6f5gp69/4Z5esbazn/QLz/Cf62l7/N23Sypw+AJntqBdzv8+53+Zwd6i6oj8hGXoe0mQrLP/8PXOb10N7V6f/ZL4DKMeM=",
+  "description": "Own synthetic ordinary internal-feedback test configuration. Creator/comment packets are absent; USER_CODE is zero.",
+  "format": "maxvell.synthetic_feedback_fixture.v1",
+  "target": "5M40ZE64C5"
+}
